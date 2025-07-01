@@ -67,3 +67,9 @@ $ kubectl apply -f https://github.com/cert-manager/cert-manager/releases/downloa
 
 $ kubectl create namespace argocd ; kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
+
+### Clone o repositório da aplicação:
+```bash
+$ git@github.com:luancarlos021/Ecoleta_NLW.git
+```
+Este repo é composto pela aplicação de exemplo e os manifestos que serão utilizados no argoCD.
