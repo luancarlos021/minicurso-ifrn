@@ -78,3 +78,7 @@ Este repo é composto pela aplicação de exemplo e os manifestos que serão uti
 ```bash
 kubectl config set-context --current --namespace=<nome-do-namespace>
 ```
+### pegando a secert
+```
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo
+```
