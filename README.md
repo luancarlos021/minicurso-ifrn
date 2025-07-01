@@ -73,3 +73,8 @@ kubectl create namespace argocd ; kubectl apply -n argocd -f https://raw.githubu
 git@github.com:luancarlos021/Ecoleta_NLW.git
 ```
 Este repo é composto pela aplicação de exemplo e os manifestos que serão utilizados no argoCD.
+
+### Mudando de namespace:
+```bash
+kubectl config set-context --current --namespace=<nome-do-namespace>
+```
