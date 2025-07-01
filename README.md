@@ -70,7 +70,7 @@ kubectl create namespace argocd ; kubectl apply -n argocd -f https://raw.githubu
 
 ### Clone o repositório da aplicação:
 ```bash
-git@github.com:luancarlos021/Ecoleta_NLW.git
+https://github.com/luancarlos021/Ecoleta_NLW.git
 ```
 Este repo é composto pela aplicação de exemplo e os manifestos que serão utilizados no argoCD.
 
